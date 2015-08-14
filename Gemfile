@@ -43,6 +43,8 @@ group :development, :test do
   gem 'spring'
 
   gem 'devise', '~> 3.5.2'
+
+  gem 'bootstrap-sass', '~> 3.3.5.1'
   
 end
 
