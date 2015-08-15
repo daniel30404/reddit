@@ -49,8 +49,8 @@ group :development, :test do
   gem 'simple_form', '~> 3.0.2'
   gem 'devise-encryptable'
 
- group :development do
-  gem 'sqlite3',     '1.3.9'
+ group :development, :test do
+  gem 'sqlite3', '1.3.9'
 end
 group :production do
   gem 'pg',             '0.17.1'
