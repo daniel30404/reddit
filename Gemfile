@@ -47,7 +47,7 @@ group :development, :test do
   gem 'acts_as_votable', '~> 0.10.0'
 
   gem 'simple_form', '~> 3.0.2'
-  
+
   group  :development  do 
   gem 'sqlite3', '~> 1.3.10'
   end

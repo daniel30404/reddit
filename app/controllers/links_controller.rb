@@ -72,6 +72,10 @@ def downvote
   @link = Link.find(params[:id])
   @link.downvote_by current_user
   redirect_to :back
+<<<<<<< HEAD
+=======
+
+>>>>>>> add_acts_as_votable
  end
 
   private
