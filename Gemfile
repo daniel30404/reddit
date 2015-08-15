@@ -49,7 +49,7 @@ group :development, :test do
   gem 'simple_form', '~> 3.0.2'
 
 
- group :development, :test do
+ group :development do
   gem 'sqlite3',     '1.3.9'
 end
 group :production do
