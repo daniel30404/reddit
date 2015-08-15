@@ -1,22 +1,13 @@
 Rails.application.routes.draw do
   resources :comments
-  
-  devise_for :users
+    devise_for :users
   resources :links do
-<<<<<<< HEAD
       member do
         put "like", to: "links#upvote"
         put "dislike", to: "links#downvote"
         end
         resources :comments
         end
-=======
-    member do
-      put "like", to: "links#upvote"
-      put "dislike", to: "links#downvote"
-    end 
-    end
->>>>>>> add_acts_as_votable
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -71,4 +62,4 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-end
+  end
